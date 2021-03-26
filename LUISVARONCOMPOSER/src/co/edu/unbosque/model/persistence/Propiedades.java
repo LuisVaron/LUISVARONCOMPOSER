@@ -15,7 +15,6 @@ public class Propiedades {
 
 			prop.setProperty("numeroEstrofas", "3");
 			prop.setProperty("numeroFrases", "4");
-			prop.setProperty("nombreArchivo", "");
 			prop.store(new FileOutputStream(archivoprop), null);
 
 		} catch (IOException ex) {
